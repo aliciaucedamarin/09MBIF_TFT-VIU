@@ -301,7 +301,7 @@ dev.off()
 
 cat("\n")
 cat("============================================\n")
-cat("PROFESSIONAL PDF GENERATED\n")
+cat("PDF GENERATED\n")
 cat("============================================\n")
 cat("File:\n")
 cat("results/figures/cohort_summary.pdf\n")
