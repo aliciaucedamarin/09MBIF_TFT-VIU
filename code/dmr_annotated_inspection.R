@@ -24,14 +24,14 @@ library(EnhancedVolcano)
 # ==============================================================================
 
 input_file <- file.path(
-  "data/original/all_24_content_clean_annot_nodup.bed.xlsx"
+  "data/raw_data_annotated_hg19.xlsx"
 )
 
-bed_matrix <- read_excel(
+raw_data <- read_excel(
   input_file,
-  sheet = "all_24_content_clean_annot_nodu",
+  sheet = "all_24_content_annotated",
   skip = 0
-)
+) 
 
 metadata <- read_tsv(
   "metadata/patients_metadata.txt",
